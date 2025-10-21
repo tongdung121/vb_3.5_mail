@@ -1,0 +1,10 @@
+D:\factory\testMail\testMail\bin\Release\testMail.exe
+D:\factory\testMail\testMail\bin\Release\testMail.pdb
+D:\factory\testMail\testMail\bin\Release\testMail.xml
+D:\factory\testMail\testMail\obj\Release\ResolveAssemblyReference.cache
+D:\factory\testMail\testMail\obj\Release\testMail.Form1.resources
+D:\factory\testMail\testMail\obj\Release\testMail.Resources.resources
+D:\factory\testMail\testMail\obj\Release\testMail.vbproj.GenerateResource.Cache
+D:\factory\testMail\testMail\obj\Release\testMail.exe
+D:\factory\testMail\testMail\obj\Release\testMail.xml
+D:\factory\testMail\testMail\obj\Release\testMail.pdb
