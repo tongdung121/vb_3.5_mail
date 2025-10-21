@@ -61,7 +61,7 @@ Public Class Form1
     ' ====== 2️⃣ Hàm gửi email ======
     Private Sub SendEmail(ByVal toAddress As String)
         Try
-            Dim fromAddress As String = "tongvanthienvu@gmail.com"
+            Dim fromAddress As String = "example@gmail.com"
             Dim subject As String = "Thông báo tự động"
             Dim body As String = "<b>Xin chào!</b><br>Bạn nhận được email test từ hệ thống VB.NET 3.5."
 
@@ -70,7 +70,7 @@ Public Class Form1
 
             Dim smtp As New SmtpClient("smtp.gmail.com", 587)
             smtp.EnableSsl = True
-            smtp.Credentials = New NetworkCredential("tongvanthienvu@gmail.com", "taryauulxecajvsx")
+            smtp.Credentials = New NetworkCredential("example@gmail.com", "xxx")
 
             smtp.Send(mail)
 
