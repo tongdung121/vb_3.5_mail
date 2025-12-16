@@ -8,3 +8,9 @@ D:\factory\testMail\testMail\obj\Debug\testMail.vbproj.GenerateResource.Cache
 D:\factory\testMail\testMail\obj\Debug\testMail.exe
 D:\factory\testMail\testMail\obj\Debug\testMail.xml
 D:\factory\testMail\testMail\obj\Debug\testMail.pdb
+D:\factory\testMail\testMail\bin\Debug\Common.dll
+D:\factory\testMail\testMail\bin\Debug\zxing.dll
+D:\factory\testMail\testMail\bin\Debug\Common.pdb
+D:\factory\testMail\testMail\bin\Debug\Common.xml
+D:\factory\testMail\testMail\bin\Debug\itextsharp.dll
+D:\factory\testMail\testMail\bin\Debug\QRCoder.dll

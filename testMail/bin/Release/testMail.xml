@@ -6,6 +6,38 @@ testMail
 </name>
 </assembly>
 <members>
-
+<member name="T:testMail.DataSet1.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:testMail.DataSet1.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:testMail.DataSet1.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:testMail.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:testMail.dsQR.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:testMail.dsQR.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:testMail.dsQR.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:testMail.dsQR">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
 </members>
 </doc>

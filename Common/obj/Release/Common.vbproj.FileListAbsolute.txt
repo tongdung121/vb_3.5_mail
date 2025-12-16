@@ -1,0 +1,10 @@
+D:\factory\testMail\Common\bin\Release\Common.dll
+D:\factory\testMail\Common\bin\Release\Common.pdb
+D:\factory\testMail\Common\bin\Release\Common.xml
+D:\factory\testMail\Common\bin\Release\zxing.dll
+D:\factory\testMail\Common\obj\Release\ResolveAssemblyReference.cache
+D:\factory\testMail\Common\obj\Release\Common.Resources.resources
+D:\factory\testMail\Common\obj\Release\Common.vbproj.GenerateResource.Cache
+D:\factory\testMail\Common\obj\Release\Common.dll
+D:\factory\testMail\Common\obj\Release\Common.xml
+D:\factory\testMail\Common\obj\Release\Common.pdb
