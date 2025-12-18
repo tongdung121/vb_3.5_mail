@@ -26,6 +26,7 @@ Partial Class Form1
         Me.qr = New System.Windows.Forms.Button
         Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog
+        Me.Button2 = New System.Windows.Forms.Button
         Me.SuspendLayout()
         '
         'Button1
@@ -57,11 +58,21 @@ Partial Class Form1
         Me.CrystalReportViewer1.TabIndex = 2
         Me.CrystalReportViewer1.ViewTimeSelectionFormula = ""
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(97, 139)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 3
+        Me.Button2.Text = "created QR"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(338, 404)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.CrystalReportViewer1)
         Me.Controls.Add(Me.qr)
         Me.Controls.Add(Me.Button1)
@@ -74,5 +85,6 @@ Partial Class Form1
     Friend WithEvents qr As System.Windows.Forms.Button
     Friend WithEvents CrystalReportViewer1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
     Friend WithEvents SaveFileDialog1 As System.Windows.Forms.SaveFileDialog
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 
 End Class

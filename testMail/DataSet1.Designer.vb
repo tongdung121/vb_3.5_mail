@@ -344,9 +344,9 @@ Partial Public Class DataSet1
             Me.Rows.Add(row)
         End Sub
         
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute()> _
-        Public Overloads Function AddDataTable1Row(ByVal Image As Byte, ByVal key_link As String) As DataTable1Row
-            Dim rowDataTable1Row As DataTable1Row = CType(Me.NewRow, DataTable1Row)
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute()>  _
+        Public Overloads Function AddDataTable1Row(ByVal Image() As Byte, ByVal key_link As String) As DataTable1Row
+            Dim rowDataTable1Row As DataTable1Row = CType(Me.NewRow,DataTable1Row)
             Dim columnValuesArray() As Object = New Object() {Image, key_link}
             rowDataTable1Row.ItemArray = columnValuesArray
             Me.Rows.Add(rowDataTable1Row)
@@ -373,7 +373,7 @@ Partial Public Class DataSet1
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute()>  _
         Private Sub InitClass()
-            Me.columnImage = New Global.System.Data.DataColumn("Image", GetType(Byte), Nothing, Global.System.Data.MappingType.Element)
+            Me.columnImage = New Global.System.Data.DataColumn("Image", GetType(Byte()), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnImage)
             Me.columnkey_link = New Global.System.Data.DataColumn("key_link", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnkey_link)
@@ -512,17 +512,17 @@ Partial Public Class DataSet1
             Me.tableDataTable1 = CType(Me.Table,DataTable1DataTable)
         End Sub
         
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute()> _
-        Public Property Image() As Byte
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute()>  _
+        Public Property Image() As Byte()
             Get
-                Try
-                    Return CType(Me(Me.tableDataTable1.ImageColumn), Byte)
+                Try 
+                    Return CType(Me(Me.tableDataTable1.ImageColumn),Byte())
                 Catch e As Global.System.InvalidCastException
                     Throw New Global.System.Data.StrongTypingException("The value for column 'Image' in table 'DataTable1' is DBNull.", e)
                 End Try
             End Get
-            Set(ByVal value As Byte)
-                Me(Me.tableDataTable1.ImageColumn) = Value
+            Set
+                Me(Me.tableDataTable1.ImageColumn) = value
             End Set
         End Property
         
